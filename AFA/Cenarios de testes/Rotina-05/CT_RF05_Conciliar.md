@@ -1,4 +1,4 @@
-## Cenário 02: Realização de contagem física simulada
+## Cenário 02: Conciliar totais com relatório de vendas
 
 ### Caso de Teste 01: .
 

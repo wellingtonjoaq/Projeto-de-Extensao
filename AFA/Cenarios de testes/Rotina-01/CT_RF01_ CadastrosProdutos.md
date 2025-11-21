@@ -1,32 +1,33 @@
-## Cenário 01: Cadastro de produtos.
+## Cenário 01: Cadastros produtos fictícios via importação XML
 
-### Caso de Teste 01: produto com campos preenchidos corretamente.
+### Caso de Teste 01: Cadastro via importação XML
 
 | ID       | Descrição                                                |
 | :------- | :------------------------------------------------------- |
-| C01-CT01 | O cadastro deve ser preenchidos corretamente.            |
+| C01-CT01 | O usuario deve importar o XML.                           |
 
 | **Pré-condições**                                                   |
 | :------------------------------------------------------------       |
-| Acessar tela de cadastro de produtos.                               |
+| O XML deve ser valido e não pode ser vazio.                         |
 
 | **Passos**                                                          |
 | :----------------------------------------------------------------   |
-| **DADO** que estamos na tela de cadastro de produtos                |
-| **QUANDO** clicarmos no botão "Novo"                                |
-| **ENTÃO** ira abrir a tela para cadastrar o produto                 |
-| **E** preenchemos todos campos corretamente                         |
-| **QUANDO** clicarmos no botão "Salvar"                              |
-| **ENTÃO** seremos redirecionados para a tela de cadastro de produtos|
+| **DADO** principal                                                  |
+| **QUANDO** clica-mos em pedidos e escolhemos a opção "Importar XML de compra"                                                               |
+| **ENTÃO** ira abrir a tela para importar o XML                      |
+| **E** preenchemos os campos obrigatorios                            |
+| **E** importamos o XML                                              |
+| **QUANDO** clicarmos no botão "Gerar Compra"                        |
+| **ENTÃO** a tela de compra sera exibida|
 
 | **Critérios de aceitação**                                          |
 | :--------------------------------------------------------------     |
-| Na tela principal deve estar listada os dados do produto            |
-| [Video]([https://drive.google.com/file/d/1TxVgQprg1wKJMuXNlSIelVGABuoopCIm/view?usp=drive_link]())                                                    |
+| os registros dos produtos devem ser exibidos                        |
+| [Video](https://drive.google.com/file/d/1JXvgGtODDgTwIiJn6S45O5uVAcHku3lI/view?usp=drive_link)                                                       |
 
 ---
 
-### Caso de Teste 02: Tentativa de cadastro de produto sem preencher os campos obrigatorios.
+### Caso de Teste 02: Tentativa de cadastro via importação XML vazio
 
 | ID       | Descrição                                                                |
 | :------- | :-------------------------------------------------------                 |
@@ -46,6 +47,6 @@
 | **Critérios de aceitação**                                                          |
 | :--------------------------------------------------------------                     |
 | A mensagem de erro deve ser exibida.                                                |
-| [Video]([https://drive.google.com/file/d/1t1edldI-p6G237wb34n5IdzUi8BVVNjC/view?usp=drive_link]())                                                                    |
+| [Video](https://drive.google.com/file/d/15_13DcOKZLeJeLkUVZ3PHwwwAlzNMKII/view?usp=drive_link)                                                                    |
 
 ---
