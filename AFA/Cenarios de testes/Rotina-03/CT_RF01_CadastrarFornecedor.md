@@ -1,6 +1,6 @@
 Link da Rotina 03: [Video](https://drive.google.com/drive/folders/10MVFuvdmUGwjxlvX59j59lxgwZb_3IMJ?usp=sharing)
 
-## Cenário 0: Compra com Fornecedores
+## Cenário 03: Compra com Fornecedores
 
 ### Caso de Teste 01: Cadastrar novo fornecedor com informações válidas
 
