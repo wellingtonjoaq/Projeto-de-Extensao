@@ -1,4 +1,4 @@
-Link da Rotina 03: https://drive.google.com/drive/folders/10MVFuvdmUGwjxlvX59j59lxgwZb_3IMJ?usp=sharing
+Link da Rotina 03: [Video](https://drive.google.com/drive/folders/10MVFuvdmUGwjxlvX59j59lxgwZb_3IMJ?usp=sharing)
 
 ## Cenário 0: Compra com Fornecedores
 
@@ -119,24 +119,24 @@ Link da Rotina 03: https://drive.google.com/drive/folders/10MVFuvdmUGwjxlvX59j59
 
 | **Passos**                                                        |
 | :---------------------------------------------------------------- |
-| **DADO** que o operador acessa o menu “Compra”                    |
-| **E** clica no botão “Novo”                                       |
-| **E** informa o fornecedor (buscando por código ou nome)          |
-| **E** clica em “Salvar”                                           |
-| **E** clica no ícone “Novo” para entrada de produtos              |
-| **E** adiciona o primeiro produto informando código ou pesquisando por nome |
-| **E** clica em “Salvar”                                           |
+| **DADO** que o usuário acesse a tela de “Compra”                    |
+| **E** clique no botão “Novo”                                       |
+| **E** selecione um fornecedor(Pesquisando o nome)          |
+| **E** clique no botão “Salvar”                                           |
+| **E** clique no botão “Novo” para entrada de produtos              |
+| **E** pesquise o produto por nome ou id |
+| **E** clique em “Salvar”                                           |
 | **E** na tela compra clicar em "Salvar"                           |
-| **E** seleciona condição de compra Prazo                          |
+| **E** seleciona condição de compra "Prazo"                          |
 | **QUANDO** clicar em “Salvar”                                     |
 | **ENTÃO** o sistema deve abrir a tela Contas a Pagar              |
-| **E** o operador informa 5 parcelas                               |
+| **E** o usuário informa 5 parcelas                               |
 | **E** clica em “Salvar”                                           |
 | **E** efetua pagamento total da 1ª parcela                        |
 | **E** efetua pagamento parcial da 2ª parcela                      |
 | **QUANDO** confirmar o pagamento parcial                          |
 | **ENTÃO** deve aparecer a mensagem perguntando se deseja quitar parcialmente |
-| **E** o operador seleciona “Sim”                                  |
+| **E** o usuário seleciona “Sim”                                  |
 | **ENTÃO** o sistema deve registrar parcelas pagas, parcial e não pagas. |
 
 | **Critérios de aceitação**                                      |
