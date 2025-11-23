@@ -1,4 +1,4 @@
-Link da pasta Roteiro 04: https://drive.google.com/drive/folders/1zN9IOScKdN2Um4QztDwjb7z7EZ_7Mkze?usp=drive_link
+Link da Rotina 04: [Video](https://drive.google.com/drive/folders/1UjRtMvVODyy10u9VWJ6EdowC7R3ApxSQ?usp=sharing)
 
 ## Cenário 06: Gestão de Clientes
 
@@ -6,24 +6,24 @@ Link da pasta Roteiro 04: https://drive.google.com/drive/folders/1zN9IOScKdN2Um4
 
 | ID       | Descrição                                                            |
 | :------- | :------------------------------------------------------------------- |
-| C06-CT01 | O sistema deve permitir o cadastro de novos clientes Pessoa Física e Pessoa Jurídica. |
+| C06-CT01 | O sistema deve permitir cadastrar novos clientes, sendo Pessoa Física e Pessoa Jurídica. |
 
 | **Pré-condições**                                             |
 | :------------------------------------------------------------ |
-| O usuário deve estar logado e ter acesso ao módulo Cadastro de Clientes.  |
+| O usuário deve ter acesso ao painel de Cadastro de Clientes.  |
 
 | **Passos**                                                        |
 | :---------------------------------------------------------------- |
-| **DADO** que o operador acessa o menu “Cadastro de Clientes”      |
-| **E** clica no botão “Novo”                                       |
-| **E** preenche todos os campos necessários (PF ou PJ)             |
+| **DADO** que o usuário acesse ao painel “Cadastro de Clientes”      |
+| **E** clique no botão “Novo”                                       |
+| **E** preenche todas as informações necessarias (PF ou PJ)             |
 | **QUANDO** clicar no botão “Salvar”                               |
 | **ENTÃO** o cliente deve ser cadastrado com sucesso               |
 
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |
-| O cliente deve aparecer corretamente na lista.                  |
-| [Video](https://drive.google.com/file/d/1Ro0UNYa4PVTYnZ6WFNf4mY9wMsph235H/view?usp=drive_link) |
+| O cliente deve aparecer na lista.                  |
+| [Video](https://drive.google.com/file/d/1_LQpIx4U7hkzw6wEKGu4dGRbrEvT8MRd/view?usp=sharing) |
 
 ---
 
@@ -31,23 +31,23 @@ Link da pasta Roteiro 04: https://drive.google.com/drive/folders/1zN9IOScKdN2Um4
 
 | ID       | Descrição                                                                       |
 | :------- | :-------------------------------------------------------------------------------|
-| C06-CT02 | Sistema deve impedir o cadastro de cliente sem preencher campos obrigatórios.   |  
+| C06-CT02 | Sistema não deve permitir o cadastro de cliente sem preencher campos obrigatórios.   |  
 
 | **Pré-condições**                                             |
 | :------------------------------------------------------------ |
-| Usuário com acesso à tela de cadastro.                        |
+| Usuário com acesso ao painel de cadastro.                        |
 
 | **Passos**                                                        |
 | :---------------------------------------------------------------- |
-| **DADO** que o operador clica em “Novo”                           |
-| **E** deixa um ou mais campos obrigatórios em branco              |
+| **DADO** que o usuário clique em “Novo”                           |
+| **E** deixa um ou mais campos obrigatórios sem preencher              |
 | **QUANDO** clicar em “Salvar”                                     |
-| **ENTÃO** o sistema deve exibir mensagens de erro indicando os campos faltantes |
+| **ENTÃO** o sistema deve exibir mensagens de erro indicando os campos que não foram preenchidos |
 
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |
 | O sistema NÃO deve salvar o cliente. |
-| [Video](https://drive.google.com/file/d/1DjwfrkB1brsQRqnwS_cvOsF0Lo5NavmJ/view?usp=drive_link) |
+| [Video](https://drive.google.com/file/d/1qCRA9oSv6L6W_LD6QQzrZKEJZDzZyOgx/view?usp=sharing) |
 
 ---
 
@@ -55,7 +55,7 @@ Link da pasta Roteiro 04: https://drive.google.com/drive/folders/1zN9IOScKdN2Um4
 
 | ID       | Descrição                                                      |
 | :------- | :------------------------------------------------------------- |
-| C06-CT03 | O sistema deve permitir habilitar e configurar limite de crédito para clientes. |
+| C06-CT03 | O sistema deve permitir configurar limite de crédito para clientes. |
 
 | **Pré-condições**                                             |
 | :------------------------------------------------------------ |
@@ -63,17 +63,17 @@ Link da pasta Roteiro 04: https://drive.google.com/drive/folders/1zN9IOScKdN2Um4
 
 | **Passos**                                                        |
 | :---------------------------------------------------------------- |
-| **DADO** que o operador abre a tela “Cadastro de Clientes”        |
-| **E** clica em “Novo” ou em “Alterar” para editar um cliente existente  |
-| **E** acessa a aba “Dados Financeiros”                            |
-| **E** informa um limite de crédito e condiçãoe                    |
+| **DADO** que o usuário abra a tela “Cadastro de Clientes”        |
+| **E** clique em “Novo” ou em “Alterar”  |
+| **E** acesse a aba “Dados Financeiros”                            |
+| **E** digite um limite de crédito e condição                    |
 | **QUANDO** clicar em “Salvar”                                     |
-| **ENTÃO** o limite deve ser registrado corretamente               |
+| **ENTÃO** o limite deve ser registrado               |
 
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |
-| O limite de crédito deve aparecer na aba Dados Financeiros após salvar.  |
-| [Video](https://drive.google.com/file/d/16yHRdAYLMb3xLgXtda8BtL4Cx1wD2dfx/view?usp=drive_link) |
+| O limite de crédito deve aparecer na aba Dados Financeiros depois de salvar.  |
+| [Video](https://drive.google.com/file/d/1iPi1N6zWeZrM84HypwNxexc1iRIw6NPL/view?usp=sharing) |
 
 ---
 
@@ -81,7 +81,7 @@ Link da pasta Roteiro 04: https://drive.google.com/drive/folders/1zN9IOScKdN2Um4
 
 | ID       | Descrição                                                      |
 | :------- | :------------------------------------------------------------- |
-| C06-CT04 | Sistema deve impedir salvar limite de crédito com valores inválidos. |
+| C06-CT04 | Sistema não deve permitir salvar limite de crédito com valores inválidos. |
 
 | **Pré-condições**                                             |
 | :------------------------------------------------------------ |
@@ -89,15 +89,15 @@ Link da pasta Roteiro 04: https://drive.google.com/drive/folders/1zN9IOScKdN2Um4
 
 | **Passos**                                                        |
 | :---------------------------------------------------------------- |
-| **DADO** que o operador acessa a aba “Dados Financeiros”          |
-| **E** informa um valor de limite negativo ou não numérico          |
+| **DADO** que o usuário acesse a aba “Dados Financeiros”          |
+| **E** informe um valor de limite negativo ou não numérico          |
 | **QUANDO** clicar em “Salvar”                                     |
 | **ENTÃO** o sistema deve exibir erro e impedir o salvamento       |
 
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |
-| Deve existir mensagem clara orientando o usuário.               |
-| [Video](https://drive.google.com/file/d/1xUxynOaDpFCniSsMWBQICZ2VR71PTPx8/view?usp=drive_link) |
+| Deve existir mensagem orientando o usuário.               |
+| [Video](https://drive.google.com/file/d/1gDSJXA-A6FnT9uSX_JfANQCsN1qmDzD7/view?usp=sharing) |
 
 ---
 
@@ -113,16 +113,16 @@ Link da pasta Roteiro 04: https://drive.google.com/drive/folders/1zN9IOScKdN2Um4
 
 | **Passos**                                                        |
 | :---------------------------------------------------------------- |
-| **DADO** que o operador abre o cliente e clica em “Dependentes”   |
+| **DADO** que o usuário selecione o cliente e clique em “Dependentes”   |
 | **E** clica no botão “Novo”                                       |
-| **E** preenche os dados do dependente                             |
+| **E** busque os dados do dependente                             |
 | **QUANDO** clicar em “Salvar”                                     |
 | **ENTÃO** o dependente deve ser exibido na lista de dependentes do cliente  |
 
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |
 | Dependente deve aparecer corretamente vinculado ao cliente.     |
-| [Video](https://drive.google.com/file/d/1X4bTvLtmhCl9QnGhVGd8WUQYAkOGWRDn/view?usp=drive_link) |
+| [Video](https://drive.google.com/file/d/1mwjB64xI4hu4-FnJiQZb1MNQCiB-wvv0/view?usp=sharing) |
 
 ---
 
@@ -138,9 +138,9 @@ Link da pasta Roteiro 04: https://drive.google.com/drive/folders/1zN9IOScKdN2Um4
 
 | **Passos**                                                        |
 | :---------------------------------------------------------------- |
-| **DADO** que o operador acessa o menu “Venda”                     |
-| **E** clica no botão “Novo”                                       |
-| **E** informa o cliente                                           |
+| **DADO** que o usuároio acesse o painel “Venda”                     |
+| **E** clique no botão “Novo”                                       |
+| **E** informe o cliente                                           |
 | **E** adiciona um produto                                         |
 | **QUANDO** clicar em “Salvar”                                     |
 | **ENTÃO** a venda deve ser registrada corretamente                |
@@ -148,7 +148,7 @@ Link da pasta Roteiro 04: https://drive.google.com/drive/folders/1zN9IOScKdN2Um4
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |
 | A venda deve ser registrada corretamente.                       |
-| [Video](https://drive.google.com/file/d/1cXbpJPIg27pbua0iMOHJWdaFxY60opBn/view?usp=drive_link) |
+| [Video](https://drive.google.com/file/d/167DXIcrrSbsWmjANV_yNSEQh8HCX9ymI/view?usp=sharing) |
 
 ---
 
@@ -166,13 +166,13 @@ Link da pasta Roteiro 04: https://drive.google.com/drive/folders/1zN9IOScKdN2Um4
 | :---------------------------------------------------------------- |
 | **DADO** que o cliente possui limite de crédito                   |
 | **E** a soma da compra dentro do limite                           |
-| **QUANDO** CLica pra finalizar a venda                            |
+| **QUANDO** Clicar em finalizar a venda                            |
 | **ENTÃO** a venda deve ser registrada corretamente                |
 
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |
 | A venda deve ser registrada corretamente                        |
-| [Video](https://drive.google.com/file/d/14t2DvZOdtyE_aff3_4qv-O0ig_6FS7ak/view?usp=drive_link) |
+| [Video](https://drive.google.com/file/d/1DdTj6Fl6ZQPG0DSb8LfR_bm0zwItEdQs/view?usp=sharing) |
 
 ---
 
@@ -197,7 +197,7 @@ Link da pasta Roteiro 04: https://drive.google.com/drive/folders/1zN9IOScKdN2Um4
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |  
 | O valor atualizado deve ser exibido corretamente na aba financeira.  |                                               
-| [Video](https://drive.google.com/file/d/1hHsY-CdSgNGnkkfQ2CzfZXmZ8dK4hrnn/view?usp=drive_link) |
+| [Video](https://drive.google.com/file/d/1s-scWfJvUeqMdQru_dEwW-hY_yqXHVdv/view?usp=sharing) |
 
 ---
 
@@ -222,7 +222,7 @@ Link da pasta Roteiro 04: https://drive.google.com/drive/folders/1zN9IOScKdN2Um4
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |
 | O cliente deve aparecer com os dados alterados.                 |
-| [Video](https://drive.google.com/file/d/1xJUoyVCiTKEPWl8C9JVJFg-KtT-2bcAv/view?usp=drive_link) |
+| [Video](https://drive.google.com/file/d/1eEaS8WnXN9_vYq87YFwTKp2i8TIIcoim/view?usp=sharing) |
 
 ---
 
@@ -246,4 +246,4 @@ Link da pasta Roteiro 04: https://drive.google.com/drive/folders/1zN9IOScKdN2Um4
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |
 | O cliente deve ser deletado com sucesso                         |
-| [Video](https://drive.google.com/file/d/1HwZc4_3Zqd7Wve24U08H5exbVBp5vhMy/view?usp=drive_link) |   
+| [Video]() |   
