@@ -1,4 +1,4 @@
-Link da Rotina 05: [Video](https://drive.google.com/drive/folders/13vxkveKLvHpzLahiIzSii4KPVjC7NKp4?usp=drive_link)
+Link da Rotina 02: [Video](https://drive.google.com/drive/folders/13vxkveKLvHpzLahiIzSii4KPVjC7NKp4?usp=drive_link)
 
 ## Cenário 01: Processamento de Venda (PDV)
 
