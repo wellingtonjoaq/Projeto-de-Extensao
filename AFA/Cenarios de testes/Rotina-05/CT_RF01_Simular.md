@@ -1,3 +1,5 @@
+Link da Rotina 05: [Video](https://drive.google.com/drive/folders/1O2eq9bxbUnLn9Rx5y642x5z8MKr6GfGA?usp=drive_link)
+
 ## Cenário 01: Fechamento Caixa
 
 ### Caso de Teste 01: Simular operações de 1 caixa (Não e possivel simular 3 caixas!).

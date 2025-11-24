@@ -1,3 +1,5 @@
+Link da Rotina 05: [Video](https://drive.google.com/drive/folders/1jsRe7RqQhbrSlIkEJz4s_9igHHedSvy3?usp=drive_link)
+
 ## Cenário 01: Inventário de Estoque
 
 ### Caso de Teste 01: Cadastro via importação XML
